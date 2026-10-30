@@ -1644,6 +1644,12 @@
 		(uuid "3ce0fbbe-fac8-43e7-af02-f8fa97e6dc0b")
 	)
 	(junction
+		(at 218.44 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a03710-34e8-4c7f-b9cf-a7c96b694086")
+	)
+	(junction
 		(at 162.56 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1921,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 115.57) (xy 218.44 124.46)
+			(xy 218.44 115.57) (xy 218.44 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2121,6 +2127,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 118.11) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b3edb1-e2fd-41f9-9631-224e90f7a297")
+	)
+	(wire
+		(pts
 			(xy 172.72 88.9) (xy 172.72 90.17)
 		)
 		(stroke
@@ -2218,6 +2234,16 @@
 			(justify left bottom)
 		)
 		(uuid "b203c0c4-64c4-4035-bfdb-7d1ec0eea1a5")
+	)
+	(label "Vout"
+		(at 215.9 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1ead7bc-9716-4500-9c49-7e44fc1e11be")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2664,6 +2690,86 @@
 			(project "BuckConverter"
 				(path "/7f6cbb8b-6ca0-466e-9180-f3a6f38e4443"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "354ed458-56c6-4b83-a5ce-23b120a27047")
+		(property "Reference" "TP4"
+			(at 223.52 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 223.52 119.3799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+			(at 218.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19002c3d-3d5a-4977-b86c-9a558fa5088a")
+		)
+		(instances
+			(project "BuckConverter"
+				(path "/7f6cbb8b-6ca0-466e-9180-f3a6f38e4443"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3906,7 +4012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 204.1652 109.22 0)
 			(hide yes)
 			(show_name no)
