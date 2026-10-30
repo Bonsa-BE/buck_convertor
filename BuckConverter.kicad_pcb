@@ -1471,7 +1471,7 @@
 		(descr "MSOP, 8 Pin (http://www.ti.com/lit/ds/symlink/lm25085.pdf#page=32)")
 		(tags "MSOP SO")
 		(property "Reference" "U1"
-			(at 2.635 -2.09 0)
+			(at 2.235 -2.39 0)
 			(layer "F.SilkS")
 			(uuid "5b9745e1-8661-44ba-a12d-d457288ba4cb")
 			(effects
@@ -3961,7 +3961,7 @@
 		(uuid "04c4d01b-dfd7-49f2-a6af-e92b97c43554")
 	)
 	(via
-		(at 107 78.2)
+		(at 108.444569 78.608234)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4175,7 +4175,7 @@
 		(uuid "59d23b6c-f2b7-4720-956c-3a380c8a11da")
 	)
 	(via
-		(at 107 78.9)
+		(at 108.444569 79.308234)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4265,7 +4265,7 @@
 		(uuid "71722e3a-4b0d-4dbf-a389-b7811660fd22")
 	)
 	(via
-		(at 107 76.8)
+		(at 108.444569 77.208234)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4301,7 +4301,7 @@
 		(uuid "7ca9b5fd-22ff-4b19-873c-fa8b3a75ad83")
 	)
 	(via
-		(at 107 79.6)
+		(at 108.444569 80.008234)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4310,7 +4310,7 @@
 		(uuid "807572af-b6bd-4332-a2ad-f83a1d227d7a")
 	)
 	(via
-		(at 107 80.3)
+		(at 108.444569 80.708234)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4569,7 +4569,7 @@
 		(uuid "f9d90b77-b69c-4fdf-aab9-3ebcef02dcdd")
 	)
 	(via
-		(at 107 77.5)
+		(at 108.444569 77.908234)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")

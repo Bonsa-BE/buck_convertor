@@ -59,8 +59,8 @@
   "git": {
     "integration_disabled": false,
     "repo_password": "",
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "https",
+    "repo_username": "Bonsa-BE",
     "ssh_key": ""
   },
   "meta": {
